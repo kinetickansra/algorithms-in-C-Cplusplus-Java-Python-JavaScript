@@ -48,23 +48,3 @@ void printArr(int arr[], int n)
         cout << arr[i] << " ";
 }
 
-// Driver program to test above functions
-int main()
-{   int n;
-cout<<"enter size of array"<<endl;
-cin>>n;
-    int * arr=new int [n];
-
-  for(int i=0;i<n;i++)
-  {
-      cin>>arr[i];
-  }
-    cout << "Given array :";
-    printArr(arr, n);
-
-    sort(arr, n);
-
-    cout << "Sorted array :";
-    printArr(arr, n);
-    return 0;
-}
