@@ -11,7 +11,11 @@ Steps to contribute.
 
 2.Add an algorithms in desired algorithm in specified folder.
 
-3.Add your name and github profile link in contributors.md
+3.Add your name and github profile link in contributors.md as follows
+```markdown
+ - [Bhrigu Kansra](https://github.com/kinetickansra)
+```
+
 
 4.send a pull request
 
