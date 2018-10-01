@@ -1,4 +1,3 @@
-package pep5_2Jan;
 
 import java.util.Scanner;
 
