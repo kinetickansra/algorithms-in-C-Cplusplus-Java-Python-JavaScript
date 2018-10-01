@@ -7,4 +7,5 @@ This list contains an examples of algorithms that you can contribute to this rep
           4.Deletion
           5.Queue/Dequeue
           7.Reversal
-          8.Add any other type of algorithms you like to this list         
+	  8.Important data structures
+          9.Add any other type of algorithms you like to this list         
