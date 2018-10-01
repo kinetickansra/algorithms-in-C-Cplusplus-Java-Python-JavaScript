@@ -1,43 +1,44 @@
-import java.util.*;
-public class Main {
-   	static Scanner scn = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int[] arr = takeInput();
+import java.util.Scanner;
 
-		 int item = scn.nextInt();
+public class BinarySearch {
+
+	public static void main(String[] args) 
+	{
+     Scanner scn=new Scanner(System.in);
+     int N=scn.nextInt();
+	 int[] a=new int[N];
+	 boolean flag=false;
+	 for(int i=0;i<N;i++)
+	 {
+		 a[i]=scn.nextInt();
+	 }
+     int low=0,high=(a.length)-1;
+     int mid;
     
-	    System.out.println(binarySearch(arr,item));
-	}
-    
-    public static int[] takeInput() {
-	//	System.out.println("enter size of array");
-		int n = scn.nextInt();
-		int[] arr = new int[n];
-	//	System.out.println("enetr values in array");
-		for (int i = 0; i < n; i++) {
-			arr[i] = scn.nextInt();
-		}
-		return arr;
-	}
-	public static int binarySearch(int[] arr, int item) {
-		int lo = 0;
-		int hi = arr.length - 1;
-
-		while (lo <= hi) {
-			int mid = (lo + hi) / 2;
-
-			if (item > arr[mid]) {
-				lo = mid + 1;
-			} else if (item < arr[mid]) {
-				hi = mid - 1;
-			} else {
-				return mid;
-			}
-		}
-
-		return -1;
+     int n=scn.nextInt();
+     while(high>=low)
+     {
+    	 mid=(high+low)/2;
+    	 if (a[mid]>n)
+    	 {
+    		high=mid-1;
+    	 }
+    	 else if (a[mid]<n)
+    	 {
+    		 low=mid+1;
+         }
+    	 else if  (a[mid]==n)
+    		 {System.out.println(mid);
+    		 flag=true;
+    		 break;}
+    	
+     }
+     if (flag==false)
+     {
+    	 System.out.println(-1);
+     }
+         
 	}
 
 }
