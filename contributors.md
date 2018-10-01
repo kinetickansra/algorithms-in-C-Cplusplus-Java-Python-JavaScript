@@ -9,4 +9,3 @@
 7. [Shaguna Awasthi](https://github.com/Shagunaawasthi)
 8. [Joy Banerjee](https://github.com/joybanerjee08)
 9. [Kartikey Tripathi](https://github.com/kartikeytripathi)
-10. [Your Name](https://github.com/yourprofile)
