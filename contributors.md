@@ -1,5 +1,6 @@
 # List of all contributors
 
+
 1.  [Bhrigu Kansra](https://github.com/kinetickansra)
 2.  [Tathya Thaker](https://github.com/thetathya)
 3.  [Aslan](https://github.com/impeccableaslan)
@@ -10,6 +11,8 @@
 8.  [Joy Banerjee](https://github.com/joybanerjee08)
 9.  [Ambika](https://github.com/Ambika55)
 10. [Shivam Yadav](https://github.com/shivamyadav2512)
+11. [Nikhil Arora](https://github.com/nikhilarora06
 
-11. [Your Name](https://github.com/yourprofile)
+12. [Your Name](https://github.com/yourprofile)
+
 
