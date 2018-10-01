@@ -9,7 +9,7 @@ Steps to contribute.
 
 1.Fork this repository.
 
-2.Add an algorithms in desired algorithm in specified folder.
+2.Add an algorithms in desired algorithm in specified folder(create new folders as per your requirement).
 
 3.Add your name and github profile link in contributors.md as follows
 ```markdown
