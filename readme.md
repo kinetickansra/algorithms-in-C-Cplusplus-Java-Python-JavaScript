@@ -17,7 +17,7 @@ Steps to contribute.
 ```
 
 
-4.send a pull request
+4.Send a pull request
 
 I'll take a look at change and then merge them with master branch.
 
