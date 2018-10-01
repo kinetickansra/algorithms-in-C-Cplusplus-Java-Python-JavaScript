@@ -1,5 +1,6 @@
 # List of all contributors
 
+
 1. [Bhrigu Kansra](https://github.com/kinetickansra)
 2. [Tathya Thaker](https://github.com/thetathya)
 3. [Aslan](https://github.com/impeccableaslan)
@@ -13,4 +14,6 @@
 11. [Kartikey Tripathi](https://github.com/kartikeytripathi)
 12. [Ananya Keshari](https://github.com/ana301)
 13. [Shivam Yadav](https://github.com/Shivamyadav2512)
-14. [Manthan Keim ](https://github.com/ManthanKeim)
+14. [Gaurav Gogia](https://github.com/DesmondANIMUS)
+15. [Prakhar Mittal](https://github.com/tonystark97)
+16. [Manthan Keim ](https://github.com/ManthanKeim)
