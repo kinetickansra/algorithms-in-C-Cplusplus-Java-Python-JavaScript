@@ -10,7 +10,7 @@
 7. [Shaguna Awasthi](https://github.com/Shagunaawasthi)
 8. [Joy Banerjee](https://github.com/joybanerjee08)
 9. [Nikhil Arora](https://github.com/nikhilarora068)
-10. [Ambika](https://github.com/Ambika55)
+10. [Ambika Arora](https://github.com/Ambika55)
 11. [Kartikey Tripathi](https://github.com/kartikeytripathi)
 12. [Ananya Keshari](https://github.com/ana301)
 13. [Shivam Yadav](https://github.com/Shivamyadav2512)
