@@ -10,7 +10,7 @@
 7. [Shaguna Awasthi](https://github.com/Shagunaawasthi)
 8. [Joy Banerjee](https://github.com/joybanerjee08)
 9. [Nikhil Arora](https://github.com/nikhilarora068)
-10. [Ambika](https://github.com/Ambika55)
+10. [Ambika Arora](https://github.com/Ambika55)
 11. [Kartikey Tripathi](https://github.com/kartikeytripathi)
 12. [Ananya Keshari](https://github.com/ana301)
 13. [Shivam Yadav](https://github.com/Shivamyadav2512)
@@ -18,4 +18,13 @@
 15. [Prakhar Mittal](https://github.com/tonystark97)
 16. [Manthan Keim ](https://github.com/ManthanKeim)
 17. [Gunnika Batra](https://github.com/Gunnika)
-18. [Ankit Bajaj](https://github.com/ankit10101)
+
+
+18. [Abhishek Gupta](https://github.com/abhishek-gupta-97)
+
+19. [Pratyush Mishra](https://github.com/Pratyush2703)
+20. [Harshit Kumar](https://github.com/kHarshit)
+21. [Ankit Bajaj](https://github.com/ankit10101)
+22. [Your Name](https://github.com/yourprofile)
+
+
