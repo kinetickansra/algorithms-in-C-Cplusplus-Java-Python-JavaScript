@@ -23,4 +23,5 @@
 20. [Harshit Kumar](https://github.com/kHarshit)
 21. [Ankit Bajaj](https://github.com/ankit10101)
 22. [Medha Sharma](https://github.com/medhasharma)
+23. [Pritish Thakkar](https://github.com/ma5terdrag0n)
 23. [Your Name](https://github.com/yourprofile)
