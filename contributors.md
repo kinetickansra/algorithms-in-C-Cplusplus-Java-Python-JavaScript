@@ -23,6 +23,6 @@
 20. [Harshit Kumar](https://github.com/kHarshit)
 21. [Ankit Bajaj](https://github.com/ankit10101)
 22. [Uday Vig](https://github.com/udayvig)
-23. [Your Name](https://github.com/yourprofile)
-
-
+23. [Medha Sharma](https://github.com/medhasharma)
+24. [Pritish Thakkar](https://github.com/ma5terdrag0n)
+25. [Your Name](https://github.com/yourprofile)
