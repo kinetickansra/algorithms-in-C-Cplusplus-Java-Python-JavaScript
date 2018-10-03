@@ -25,4 +25,5 @@
 22. [Uday Vig](https://github.com/udayvig)
 23. [Medha Sharma](https://github.com/medhasharma)
 24. [Pritish Thakkar](https://github.com/ma5terdrag0n)
-25. [Your Name](https://github.com/yourprofile)
+25. [Anmol Gupta](https://github.com/hello-anmol)
+26. [Your Name](https://github.com/yourprofile)
