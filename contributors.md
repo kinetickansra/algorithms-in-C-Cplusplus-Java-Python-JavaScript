@@ -30,4 +30,5 @@
 27. [Megha Bisht](https://github.com/bmegha98)
 28. [Saransh Gupta](https://github.com/gupta-saransh)
 29. [Shivam Pokhriyal](https://github.com/fs0sp)
+29. [Karanjot Singh](https://github.com/karanjot21)
 30. [Your Name](https://github.com/yourusername)
