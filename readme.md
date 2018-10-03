@@ -7,7 +7,7 @@ A repository by [Bhrigu Kansra](https://github.com/kinetickansra) for beginners 
 
 Steps to contribute.
 
-0. Register on your GitHub ID on [hackoberfest website](https://hacktoberfest.digitalocean.com/sign_up/register).
+0. Register your GitHub ID on [hackoberfest website](https://hacktoberfest.digitalocean.com/sign_up/register).
 
  1.Fork this repository.
 
