@@ -1,44 +1,39 @@
+package lecture2;
 
 import java.util.Scanner;
 
 public class BinarySearch {
 
-	public static void main(String[] args) 
-	{
-     Scanner scn=new Scanner(System.in);
-     int N=scn.nextInt();
-	 int[] a=new int[N];
-	 boolean flag=false;
-	 for(int i=0;i<N;i++)
-	 {
-		 a[i]=scn.nextInt();
-	 }
-     int low=0,high=(a.length)-1;
-     int mid;
-    
-     int n=scn.nextInt();
-     while(high>=low)
-     {
-    	 mid=(high+low)/2;
-    	 if (a[mid]>n)
-    	 {
-    		high=mid-1;
-    	 }
-    	 else if (a[mid]<n)
-    	 {
-    		 low=mid+1;
-         }
-    	 else if  (a[mid]==n)
-    		 {System.out.println(mid);
-    		 flag=true;
-    		 break;}
-    	
-     }
-     if (flag==false)
-     {
-    	 System.out.println(-1);
-     }
-         
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n, search, array[];
+		 
+	    Scanner in = new Scanner(System.in);
+	    System.out.println("Enter number of elements");
+	    n = in.nextInt();
+	    array = new int[n];
+	 
+	    System.out.println("Enter the elements in ascending order");
+	 
+	    for (int i = 0; i < n; i++)
+	      array[i] = in.nextInt();
+	 
+	    System.out.println("Enter element to be searched");
+	    search = in.nextInt();
+	
+	    int low = 0, high = n - 1;
+	    while(low <= high) {
+	    	int mid = (low + high)/2;
+	    	if(array[mid] > search) {
+	    		high = mid - 1;
+	    	}else if(array[mid] < search) {
+	    		low = mid + 1;
+	    	}else {
+	    		System.out.println("Element found at index " + mid);
+	    		return;
+	    	}
+	    }
+	    
+	    System.out.println("Element not present");
 	}
-
 }
