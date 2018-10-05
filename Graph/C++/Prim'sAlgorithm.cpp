@@ -1,4 +1,3 @@
-#include <iostream>
 #include<bits/stdc++.h>
 using namespace std;
 int findMinVertex(int* weights, bool* visited, int V)
