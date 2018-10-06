@@ -31,4 +31,5 @@
 28. [Saransh Gupta](https://github.com/gupta-saransh)
 29. [Shivam Pokhriyal](https://github.com/fs0sp)
 29. [Karanjot Singh](https://github.com/karanjot21)
-30. [Ali Piry](https://github.com/yripila)
+30. [Adam Austin](https://github.com/h3x)
+31. [Ali Piry](https://github.com/yripila)
