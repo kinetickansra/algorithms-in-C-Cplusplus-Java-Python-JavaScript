@@ -12,4 +12,6 @@ This list contains an examples of algorithms that you can contribute to this rep
           9.Bellman ford algorithm
 
 	  10.Important data structures
-          11.Add any other type of algorithms you like to this list         
+## Math/DP
+	  11.DP Algorithms
+          12.Add any other type of algorithms you like to this list         
