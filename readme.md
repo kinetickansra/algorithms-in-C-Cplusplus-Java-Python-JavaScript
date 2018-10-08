@@ -5,9 +5,9 @@ A repository by [Bhrigu Kansra](https://github.com/kinetickansra) for beginners 
 </p>
 
 
-Steps to contribute.
+## Steps to contribute.
 
-0. Register your GitHub ID on [hackoberfest website](https://hacktoberfest.digitalocean.com/sign_up/register).
+ 0.Register your GitHub ID on [hackoberfest website](https://hacktoberfest.digitalocean.com/sign_up/register).
 
  1.Fork this repository.
 
@@ -30,7 +30,7 @@ Don't worry newcomers!! Everyone's PRs will be merged,just follow the steps prop
 
 All of your suggestions are welcome!!
 
-Some tips to add your algorithm in the repository:
+## Some tips to add your algorithm in the repository:
 1. Check if your code is already present the library.
 2. If it is present then please don't add your code. If you could make the existing code better, then go ahead.
 3. Follow the <a href = "https://en.wikipedia.org/wiki/Camel_case">Camel case </a> naming convention for source files.
