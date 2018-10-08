@@ -5,21 +5,21 @@ A repository by [Bhrigu Kansra](https://github.com/kinetickansra) for beginners 
 </p>
 
 
-Steps to contribute.
+## Steps to contribute.
 
-0. Register your GitHub ID on [hackoberfest website](https://hacktoberfest.digitalocean.com/sign_up/register).
+ 1. Register your GitHub ID on [hackoberfest website](https://hacktoberfest.digitalocean.com/sign_up/register).
 
- 1.Fork this repository.
+ 2. Fork this repository.
 
- 2.Add an algorithms in desired algorithm in specified folder(create new folders as per your requirement).
+ 3. Add an algorithms in desired algorithm in specified folder(create new folders as per your requirement).
 
- 3.Add your name and github profile link in contributors.md as follows
+ 4. Add your name and github profile link in contributors.md as follows
 ```markdown
    - [Bhrigu Kansra](https://github.com/kinetickansra)
 ```
 
 
- 4.Send a pull request
+ 5. Send a pull request
 
 I'll take a look at change and then merge them with master branch.
 
@@ -29,4 +29,11 @@ Don't worry newcomers!! Everyone's PRs will be merged,just follow the steps prop
 ### Make this your first step to development and open source. Get the confidence you require!!
 
 All of your suggestions are welcome!!
+
+## Some tips to add your algorithm in the repository:
+1. Check if your code is already present the library.
+2. If it is present then please don't add your code. If you could make the existing code better, then go ahead.
+3. Follow the <a href = "https://en.wikipedia.org/wiki/Camel_case">Camel case </a> naming convention for source files.
+4. If you want to make a folder please keep the first letter of the folder name capital.
+5. Add your code to the proper folder.
 
