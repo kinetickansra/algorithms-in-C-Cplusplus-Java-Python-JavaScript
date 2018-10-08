@@ -1,0 +1,206 @@
+import java.io.BufferedReader;
+
+import java.io.IOException;
+
+import java.io.InputStream;
+
+import java.io.InputStreamReader;
+
+import java.util.StringTokenizer;
+
+
+
+
+
+/** Class for buffered reading int and double values */
+
+class Reader {
+
+    static BufferedReader reader;
+
+    static StringTokenizer tokenizer;
+
+
+
+    /** call this method to initialize reader for InputStream */
+
+    static void init(InputStream input) {
+
+        reader = new BufferedReader(
+
+                     new InputStreamReader(input) );
+
+        tokenizer = new StringTokenizer("");
+
+    }
+
+
+
+    /** get next word */
+
+    static String next() throws IOException {
+
+        while ( ! tokenizer.hasMoreTokens() ) {
+
+            //TODO add check for eof if necessary
+
+            tokenizer = new StringTokenizer(
+
+                   reader.readLine() );
+
+        }
+
+        return tokenizer.nextToken();
+
+    }
+
+
+
+    static int nextInt() throws IOException {
+
+        return Integer.parseInt( next() );
+
+    }
+
+    static long nextLong() throws IOException {
+
+        return Long.parseLong( next() );
+
+    }
+
+    static double nextDouble() throws IOException {
+
+        return Double.parseDouble( next() );
+
+    }
+
+}
+
+class node{
+	long value;
+	node left;
+	node right;
+	node (long v, node l, node r){
+		value=v;
+		left=l;
+		right=r;
+	}
+}
+
+class bst{
+	
+	node insert (node root1, long target) {
+		if (root1 == null)
+		root1 = new node (target,null,null);
+		else {
+		if (target <= root1.value)
+		root1.left = insert (root1.left, target);
+		else
+		root1.right = insert (root1.right, target);
+		}
+		return root1;
+		}
+
+	void predisplay (node root2,int count1) {
+		if (root2==null && count1==1)
+			System.out.println(-1);
+		else if (root2!=null){
+		System.out.print (root2.value + " ");
+		predisplay (root2.left,++count1);
+		predisplay (root2.right,++count1);
+		}
+	}
+	
+	void indisplay (node root3,int count2) {
+		if (root3==null && count2==1)
+			System.out.println(-1);
+		else if (root3!=null) {
+		indisplay (root3.left,++count2);
+		System.out.print (root3.value + " ");
+		indisplay (root3.right,++count2);
+		}
+	}
+	
+	void postdisplay (node root4,int count3) {
+		if (root4==null && count3==1)
+			System.out.println(-1);
+		else if (root4!=null){
+		postdisplay (root4.left,++count3);
+		postdisplay (root4.right,++count3);
+		System.out.print (root4.value + " ");
+		}
+	}
+	
+	node del (node root7, long val)
+	{
+		if (root7 == null)
+			return root7;
+		else if (root7.value > val)
+			root7.left = del (root7.left, val);
+		else if (root7.value < val)
+			root7.right = del (root7.right, val);
+		else
+		{
+	
+			if (root7.left != null && root7.right != null)
+				{
+					node min = root7.right;
+					while(min.left!=null) {
+						min=min.left;
+					}
+					root7.value = min.value;
+					root7.right=del (root7.right, min.value);
+				}
+			
+			else if (root7.left != null)
+				root7 = root7.left;
+	
+			else if (root7.right != null)
+				root7 = root7.right;
+	
+			else
+				root7 = null;
+	}
+	return root7;
+	}
+	
+	public static void main(String[] args) throws IOException {
+		
+        Reader.init(System.in);
+        node start=null;
+        bst obj=new bst();
+        int test=Reader.nextInt();
+        for (int i=1;i<=test;i++) {
+        	String data=Reader.next();
+			switch(data)
+			{
+				case "INSERT":
+						long a=Reader.nextLong();
+						start=obj.insert(start,a);
+						break;
+
+				case "DELETE":
+					long b=Reader.nextLong();
+					start=obj.del(start,b);
+					break;
+
+				case "PRINTIN":
+					obj.indisplay(start,1);
+					System.out.println();
+					break;
+
+				case "PRINTPOST":
+					obj.postdisplay(start,1);
+					System.out.println();
+					break;
+
+				case "PRINTPRE":
+					obj.predisplay(start,1);
+					System.out.println();
+					break;		
+					}
+			}
+	
+        }
+	}
+
