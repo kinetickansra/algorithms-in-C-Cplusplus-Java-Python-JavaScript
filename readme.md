@@ -7,19 +7,19 @@ A repository by [Bhrigu Kansra](https://github.com/kinetickansra) for beginners 
 
 ## Steps to contribute.
 
- 1.Register your GitHub ID on [hackoberfest website](https://hacktoberfest.digitalocean.com/sign_up/register).
+ 1. Register your GitHub ID on [hackoberfest website](https://hacktoberfest.digitalocean.com/sign_up/register).
 
- 2.Fork this repository.
+ 2. Fork this repository.
 
- 3.Add an algorithms in desired algorithm in specified folder(create new folders as per your requirement).
+ 3. Add an algorithms in desired algorithm in specified folder(create new folders as per your requirement).
 
- 4.Add your name and github profile link in contributors.md as follows
+ 4. Add your name and github profile link in contributors.md as follows
 ```markdown
    - [Bhrigu Kansra](https://github.com/kinetickansra)
 ```
 
 
- 5.Send a pull request
+ 5. Send a pull request
 
 I'll take a look at change and then merge them with master branch.
 
