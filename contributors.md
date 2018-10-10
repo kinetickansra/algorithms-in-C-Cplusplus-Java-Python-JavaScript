@@ -41,3 +41,4 @@
 39. [Sanka Mohottala] (https://github.com/sankamohottala)
 40. [Riya Singh](https://github.com/riya24899)
 41. [Your Name](https://github.com/yourusername)
+42. [Sarthak gupta](https://github.com/sarthak-g)
