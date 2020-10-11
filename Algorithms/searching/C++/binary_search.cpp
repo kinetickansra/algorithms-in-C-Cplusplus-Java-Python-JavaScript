@@ -19,7 +19,16 @@
 using namespace std;
 
 int binarySearch(const int value, const vector<int>& sortedVect, const int low, const int high) {
-    int mid = (low + high) / 2;
+//     int mid = (low + high) / 2;
+    /* Incase the value of low and high is large then
+        formula (low+high)/2 fails in some case ,
+        therefore it's better to use this formula:-
+            
+            int mid = low + (high-low)/2;
+            
+     */
+    
+    int mid = low + (high-low)/2;
 
     if (value == sortedVect[mid])
         return mid;
