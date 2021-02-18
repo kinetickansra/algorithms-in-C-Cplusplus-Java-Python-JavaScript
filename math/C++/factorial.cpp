@@ -1,21 +1,19 @@
-//program to find factorial of a given no. using recursive function.
+//program to find factorial of a given no. without using recursive function.
 
-#include <iostream.h>
+#include <iostream>
 using namespace std;
 int fac(int n){
-if
-{ 
-  n<=1 return 1;
-} 
-else
-{ 
-  return n*fac(n-1);
-}
+ int m=1;
+    for(int j=1; j<=n; j++)
+    {
+        m=m*j;
+    }
+    return m;
 }
 
 int main(){
 int i,n;
-cout<<"enter the no. for finding the factorial";
+cout<<"enter the no. for finding the factorial : \n";
 cin>>n;
 i=fac(n);
 cout<<"the factorial of the given no. is "<<i;
